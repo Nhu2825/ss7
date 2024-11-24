@@ -8,15 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="algorithmsonSDA.cs" />
     <Compile Remove="baitap1.cs" />
-    <Compile Remove="jagged.cs" />
     <Compile Remove="nhap.cs" />
     <Compile Remove="vidujagged.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="algorithmsonSDA.cs" />
     <None Include="baitap1.cs" />
-    <None Include="jagged.cs" />
     <None Include="nhap.cs" />
     <None Include="vidujagged.cs" />
   </ItemGroup>
